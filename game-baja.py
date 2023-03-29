@@ -61,33 +61,31 @@ genre_num_str = input('''\nWe have plenty of games in our database for {console}
 Please select one or more genres from the list below by inputting the numbers of the associated genres (separate numbers by a comma for multiple selections):
 1. Action/Adventure
 2. Shooters (FPS and TPS)
-2. Role Playing Games (RPGs, ARPGs and JRPGs)
-3. Real-time Strategy (RTS)
-4. Sports
-5. Puzzles
-6. Survival/Horror
+3. Role Playing Games (RPGs, ARPGs and JRPGs)
+4. Real-time Strategy (RTS)
+5. Sports
+6. Puzzles
+7. Survival/Horror
 Please input the number(s) here: '''.format(console = console_str))
 
 genre_num_list = genre_num_str.split(',')
 
 genre_dict = {
 1 : 'Action/Adventure',
-2 : 'Shooters (FPS and TPS)',
-2 : 'Role Playing Games (RPGs, ARPGs and JRPGs)',
-3 : 'Real-time Strategy (RTS)',
-4 : 'Sports',
-5 : 'Puzzles',
-6 : 'Survival/Horror'
+2 : 'Shooters',
+3 : 'Role Playing Games',
+4 : 'Real-time Strategy',
+5 : 'Sports',
+6 : 'Puzzles',
+7 : 'Survival/Horror'
 }
 
 genre_list = ""
 
 for genre_num in genre_num_list:
     for key, val in genre_dict.items():
-        if genre_num == key:
+        if int(genre_num) == key:
             genre_list += val
             genre_list += ', '
 
-print(genre_dict)
-print(genre_num_list)
-print(genre_list)
+print(genre_list.strip(', '))
