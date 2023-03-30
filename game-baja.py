@@ -33,10 +33,12 @@ print('\nNice to meet you {name}! You can call me GB.'.format(name = user_name))
 
 console_num = int(input('''\nSo {name}, what console are you currently playing on? Please choose the number of associated console below:
 1. Nintendo Switch
-2. PlayStation 5
-3. XBOX Series X/Series S
-4. PC
-5. Other
+2. PlayStation 4
+3. PlayStation 5
+4. Xbox One
+5. XBOX Series X/S
+6. PC
+7. Other
 Input number here: '''.format(name = user_name)))
 
 if console_num == 5:
@@ -46,9 +48,11 @@ else:
 
     console_dict = {
     1 : 'Nintendo Switch',
-    2 : 'PlayStation 5',
-    3 : 'XBOX Series S/Series S',
-    4 : 'PC'
+    2 : 'PlayStation 4',
+    3 : 'PlayStation 5',
+    4 : 'Xbox One',
+    5 : 'XBOX Series X/S',
+    6 : 'PC'
     }
 
     for key, val in console_dict.items():
@@ -66,18 +70,42 @@ Please select one or more genres from the list below by inputting the numbers of
 5. Sports
 6. Puzzles
 7. Survival/Horror
+8. Racing
+9. Fantasy
+10. Sci-Fi
+11. Open-world
+12. Sandbox
+13. Simulation
+14. Soulslike
+15. Roguelike
+16. Platformer
+17. Party
+18. Battle Royale
+19. Fighting
 Please input the number(s) here: '''.format(console = console_str))
 
 genre_num_list = genre_num_str.split(',')
 
 genre_dict = {
 1 : 'Action/Adventure',
-2 : 'Shooters',
+2 : 'Shooter',
 3 : 'Role Playing Games',
 4 : 'Real-time Strategy',
 5 : 'Sports',
 6 : 'Puzzles',
-7 : 'Survival/Horror'
+7 : 'Survival/Horror',
+8 : 'Racing',
+9 : 'Fantasy',
+10 : 'Sci-Fi',
+11 : 'Open-world',
+12 : 'Sandbox',
+13 : 'Simulation',
+14 : 'Soulslike',
+15 : 'Roguelike',
+16 : 'Platformer',
+17 : 'Party',
+18 : 'Battle Royale',
+19 : 'Fighting'
 }
 
 genre_list = ""
