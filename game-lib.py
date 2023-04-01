@@ -19,7 +19,7 @@ hades = Game('Hades', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbo
 mario_odyssey = Game('Super Mario Odyssey', ['Nintendo Switch'], ['Single-player'], ['Action/Adventure', 'Fantasy', 'Platformer'], 'E', 2017)
 mario_party = Game('Super Mario Party', ['Nintendo Switch'], ['Multiplayer'], ['Fantasy', 'Party'], 'E', 2018)
 
-#PlayStation games
+# PlayStation games
 god_of_war_2018 = Game('God of War', ['PlayStation 4', 'PlayStation 5'], ['Single-player'], ['Action/Adventure', 'Fantasy'], 'M', 2018)
 god_of_war_ragnarok = Game('God of War: Ragnarok', ['PlayStation 4', 'PlayStation 5'], ['Single-player'], ['Action/Adventure', 'Fantasy'], 'M', 2022)
 nioh = Game('Nioh', ['PlayStation 4', 'PlayStation 5', 'PC'], ['Single-player'], ['Action/Adventure', 'Fantasy', 'Soulslike'], 'M', 2017)
@@ -34,12 +34,19 @@ ghost_of_tsushima = Game('Ghost of Tsushima', ['PlayStation 4', 'PlayStation 5']
 ufc_3 = Game('UFC 3', ['PlayStation 4', 'Xbox One'], ['Single-player', 'Multiplayer'], ['Sports', 'Fighting'], 'T', 2018)
 ufc_4 = Game('UFC 4', ['PlayStation 4', 'Xbox One'], ['Single-player', 'Multiplayer'], ['Sports', 'Fighting'], 'T', 2020)
 tekken_7 = Game('Tekken 7', ['PlayStation 4', 'Xbox One', 'PC'], ['Single-player', 'Multiplayer'], ['Fighting'], 'T', 2016)
+uncharted = Game('Uncharted: Drake\'s Fortune', ['PlayStation 4'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2007)
+uncharted_2 = Game('Uncharted 2: Among Thieves', ['PlayStation 4'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2009)
+uncharted_3 = Game('Uncharted 3: Drake\'s Deception', ['PlayStation 4'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2011)
+uncharted_4 = Game('Uncharted 4: A Thief\'s End', ['PlayStation 4', 'PlayStation 5'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2016)
+returnal = Game('Returnal', ['PlayStation 5', 'PC'], ['Single-player'], ['Shooter', 'Sci-Fi' 'Roguelike'], 'T', 2021)
 
-#XBOX games
+# Xbox games
 halo_infinite = Game('Halo: Infinite', ['Xbox One, Xbox Series X/S'], ['Single-player', 'Multiplayer'], ['Shooter', 'Sci-Fi'], 'T', 2021)
-apex_legends = Game('Apex Legends', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Multiplayer'], ['Shooter', 'Battle Royale'], 2019)
+apex_legends = Game('Apex Legends', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Multiplayer'], ['Shooter', 'Battle Royale'], 'T', 2019)
+dark_souls_3 = Game('Dark Souls 3', ['PlayStation 4', 'Xbox One', 'PC'], ['Single-player'], ['Action/Adventure', 'Fantasy', 'Soulslike'], 'M', 2016)
+sekiro = Game('Sekiro: Shadows Die Twice', ['PlayStation 4', 'Xbox One', 'PC'], ['Single-player'],['Action/Adventure', 'Fantasy', 'Soulslike'], 'M', 2019)
 
-#PC games
+# PC games
 minecraft = Game('Minecraft', ['PlayStation 4', 'Xbox One', 'PC'], ['Single-player', 'Multiplayer'], ['Sandbox'], 'E', 2011)
 starcraft_2 = Game('Starcraft 2', ['PC'], ['Single-player', 'Multiplayer'], ['Real Time Strategy', 'Sci-Fi'], 'M', 2010)
 fortnite = Game('Fortnite', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Multiplayer'], ['Shooter', 'Battle Royale'], 'T', 2017)
