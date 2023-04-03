@@ -12,7 +12,7 @@ class Game:
 
 # Template  ---  title = Game(title_str, console_lst, players_lst, genre_lst, ESRB_str, release_year_int)
 # Nintendo Switch games
-zelda_botw = Game('Legend of Zelda: Breath of the Wild', ['Nintendo Switch'], ['Single-player'], ['Action/Adventure', 'Role Playing Games', 'Open World', 'Fantasy'], 'E10', 2017)
+zelda_botw = Game('Legend of Zelda: Breath of the Wild', ['Nintendo Switch'], ['Single-player'], ['Action/Adventure', 'Role Playing Game', 'Open World', 'Fantasy'], 'E10', 2017)
 mario_kart_8 = Game('Mario Kart 8', ['Nintendo Switch'], ['Multiplayer'], ['Racing', 'Fantasy'], 'E', 2014)
 animal_crossing_NH = Game('Animal Crossing: New Horizons', ['Nintendo Switch'], ['Single-player', 'Multiplayer'], ['Fantasy', 'Simulation'], 'E', 2020)
 hades = Game('Hades', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Single-player'], ['Action/Adventure', 'Roguelike'], 'M', 2020)
@@ -24,7 +24,7 @@ god_of_war_2018 = Game('God of War', ['PlayStation 4', 'PlayStation 5'], ['Singl
 god_of_war_ragnarok = Game('God of War: Ragnarok', ['PlayStation 4', 'PlayStation 5'], ['Single-player'], ['Action/Adventure', 'Fantasy'], 'M', 2022)
 nioh = Game('Nioh', ['PlayStation 4', 'PlayStation 5', 'PC'], ['Single-player'], ['Action/Adventure', 'Fantasy', 'Soulslike'], 'M', 2017)
 nioh_2 = Game('Nioh 2', ['PlayStation 4', 'PlayStation 5', 'PC'], ['Single-player'], ['Action/Adventure', 'Fantasy', 'Soulslike'], 'M', 2021)
-elden_ring = Game('Elden Ring', ['PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Single-player'], ['Action/Adventure', 'Role Playing Games', 'Open World', 'Fantasy', 'Soulslike'], 'M', 2022)
+elden_ring = Game('Elden Ring', ['PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Single-player'], ['Action/Adventure', 'Role Playing Game', 'Open World', 'Fantasy', 'Soulslike'], 'M', 2022)
 borderlands_3 = Game('Borderlands 3', ['PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Single-player', 'Multiplayer'], ['Shooter', 'Sci-Fi'], 'M', 2019)
 divinity_OS2 = Game('Divinity: Original Sin 2', ['Nintendo Switch', 'PlayStation 4', 'Xbox One', 'PC'], ['Single-player', 'Multiplayer'], ['Role Playing Game', 'Fantasy'], 'M', 2017)
 outer_worlds = Game('The Outer Worlds', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Single-player'], ['Shooter', 'Role Playing Game', 'Sci-Fi'], 'M', 2019)
@@ -52,3 +52,10 @@ starcraft_2 = Game('Starcraft 2', ['PC'], ['Single-player', 'Multiplayer'], ['Re
 fortnite = Game('Fortnite', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Multiplayer'], ['Shooter', 'Battle Royale'], 'T', 2017)
 overwatch = Game('Overwatch', ['Nintendo Switch', 'PlayStation 4', 'Xbox One', 'PC'], ['Multiplayer'], ['Shooter'], 'T', 2016)
 overwatch_2 = Game('Overwatch 2', ['Nintendo Switch', 'PlayStation 4', 'PlayStation 5', 'Xbox One', 'Xbox Series X/S', 'PC'], ['Multiplayer'], ['Shooter'], 'T', 2022)
+
+collection = [zelda_botw, mario_kart_8, animal_crossing_NH, hades, mario_odyssey, mario_party, god_of_war_2018, god_of_war_ragnarok, nioh, nioh_2, elden_ring, borderlands_3, divinity_OS2,
+outer_worlds, horizon, horizon_2, ghost_of_tsushima, ufc_3, ufc_4, tekken_7,uncharted, uncharted_2, uncharted_3, uncharted_4, returnal, halo_infinite, apex_legends, dark_souls_3, sekiro,
+minecraft, starcraft_2, fortnite, overwatch, overwatch_2]
+
+for game in collection:
+    print(game.genre)
