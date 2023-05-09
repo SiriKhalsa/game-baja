@@ -39,6 +39,7 @@ uncharted_2 = Game('Uncharted 2: Among Thieves', ['PlayStation 4'], ['Single-pla
 uncharted_3 = Game('Uncharted 3: Drake\'s Deception', ['PlayStation 4'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2011)
 uncharted_4 = Game('Uncharted 4: A Thief\'s End', ['PlayStation 4', 'PlayStation 5'], ['Single-player'], ['Action/Adventure', 'Shooter'], 'T', 2016)
 returnal = Game('Returnal', ['PlayStation 5', 'PC'], ['Single-player'], ['Shooter', 'Sci-Fi' 'Roguelike'], 'T', 2021)
+borderlands_goty = Game('Borderlands: Game of the Year Edition', ['PlayStation 4', 'PlayStation 5'], ['Single-player', 'Multiplayer'], ['Shooter'], 'M', 2019)
 
 # Xbox games
 halo_infinite = Game('Halo: Infinite', ['Xbox One, Xbox Series X/S'], ['Single-player', 'Multiplayer'], ['Shooter', 'Sci-Fi'], 'T', 2021)
