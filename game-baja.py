@@ -193,7 +193,7 @@ for game in collection:
             good_genre.append(game)
 
 good_player = []
-for game in good_genre
+# for game in good_genre
 counter = 1
 for game in good_genre:
     for item in game.console:
