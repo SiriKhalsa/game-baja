@@ -1,15 +1,3 @@
-class Game:
-    def __init__(self, title, console, players, genre, ESRB, release_year):
-        self.title = title
-        self.console = console
-        self.players = players
-        self.genre = genre
-        self.ESRB = ESRB
-        self.release_year = release_year
-
-    def __repr__(self):
-        print(self.title)
-
 # Template  ---  title = Game(title_str, console_lst, players_lst, genre_lst, ESRB_str, release_year_int)
 # Nintendo Switch games
 zelda_botw = Game('Legend of Zelda: Breath of the Wild', ['Nintendo Switch'], ['Single-player'], ['Action/Adventure', 'Role Playing Game', 'Open World', 'Fantasy'], 'E10', 2017)
@@ -57,6 +45,3 @@ overwatch_2 = Game('Overwatch 2', ['Nintendo Switch', 'PlayStation 4', 'PlayStat
 collection = [zelda_botw, mario_kart_8, animal_crossing_NH, hades, mario_odyssey, mario_party, god_of_war_2018, god_of_war_ragnarok, nioh, nioh_2, elden_ring, borderlands_3, divinity_OS2,
 outer_worlds, horizon, horizon_2, ghost_of_tsushima, ufc_3, ufc_4, tekken_7,uncharted, uncharted_2, uncharted_3, uncharted_4, returnal, halo_infinite, apex_legends, dark_souls_3, sekiro,
 minecraft, starcraft_2, fortnite, overwatch, overwatch_2]
-
-for game in collection:
-    print(game.genre)
